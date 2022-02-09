@@ -10,7 +10,7 @@ const assertEqual = (actual, expected) => {
 
 const eqArrays = function(array1, array2) {
 
-  //Compare array length
+  //Compare length of arrays
   if (array1.length !== array2.length) {
     return false;
   }
