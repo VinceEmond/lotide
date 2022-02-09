@@ -39,7 +39,7 @@ const middle = function(numberAr) {
     return middleElements;
   }
 
-  //Find Middle index of array
+  //Find middle index of array
   let middleIndex = Math.floor(numberAr.length / 2);
 
   // Even length --> return two values
