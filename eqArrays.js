@@ -10,7 +10,7 @@ const assertEqual = (actual, expected) => {
 
 const eqArrays = function(array1, array2) {
 
-  //Check if either is not arrays
+  //Check if parameters are not arrays
   if (!(Array.isArray(array1) || !(Array.isArray(array2)))) {
     return false;
   }
