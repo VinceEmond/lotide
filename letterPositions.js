@@ -31,15 +31,8 @@ const assertArraysEqual = function(array1, array2) {
 };
 
 
-
-// return all the indices (zero-based positions) in the string where each character is found.
-// Return the indexes of each position found
-
 const letterPositions = function(sentence) {
   const results = {};
-
-  //const noSpaces = sentence.split(" ").join("");
-
 
   // Loop through all letters
   for (let index = 0; index < sentence.length; index++) {
