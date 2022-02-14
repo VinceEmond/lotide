@@ -1,26 +1,30 @@
-const eqArrays = function(array1, array2) {
 
-  //Check if parameters are not arrays
-  if (!(Array.isArray(array1) || !(Array.isArray(array2)))) {
-    return false;
-  }
+const eqArrays = require("./eqArrays.js");
 
-  //Check if arrays lengths are different
-  if (array1.length !== array2.length) {
-    return false;
-  }
 
-  //Check if any items are differen in the array
-  for (let i = 0; i < array1.length; i++) {
-    if (array1[i] !== array2[i]) {
-      return false;
-    }
-  }
+// const eqArrays = function(array1, array2) {
 
-  //If no differnces found, return true
-  return true;
+//   //Check if parameters are not arrays
+//   if (!(Array.isArray(array1) || !(Array.isArray(array2)))) {
+//     return false;
+//   }
 
-};
+//   //Check if arrays lengths are different
+//   if (array1.length !== array2.length) {
+//     return false;
+//   }
+
+//   //Check if any items are differen in the array
+//   for (let i = 0; i < array1.length; i++) {
+//     if (array1[i] !== array2[i]) {
+//       return false;
+//     }
+//   }
+
+//   //If no differnces found, return true
+//   return true;
+
+// };
 
 const assertArraysEqual = function(array1, array2) {
   if (eqArrays(array1, array2)) {
@@ -30,7 +34,5 @@ const assertArraysEqual = function(array1, array2) {
   }
 };
 
-assertArraysEqual([1, 2, 3], [1, 2, 3]); // True
-assertArraysEqual([1, 2, 3], [3, 2, 1]); // False
-assertArraysEqual(["1", "2", "3"], ["1", "2", "3"]); // True
-assertArraysEqual(["1", "2", "3"], ["1", "2", 3]); // False
+
+module.exports = assertArraysEqual;

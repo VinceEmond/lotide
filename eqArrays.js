@@ -39,15 +39,6 @@
 // const takeUntil = require("../takeUntil.js");
 // const without = require("../without.js");
 
-// const assertEqual = (actual, expected) => {
-
-//   if (actual === expected) {
-//     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-//   } else {
-//     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-//   }
-
-// };
 
 const eqArrays = function(array1, array2) {
 
