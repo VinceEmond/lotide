@@ -1,7 +1,7 @@
 // Imports for non-test files
 // ***************************
 // const assertArraysEqual = require("./assertArraysEqual.js");
-const assertEqual = require("./assertEqual.js");
+// const assertEqual = require("./assertEqual.js");
 // const assertObjectsEqual = require("./assertObjectsEqual.");js
 // const countLetters = require("./countLetters.js");
 // const countOnly = require("./countOnly.js");
@@ -39,19 +39,6 @@ const assertEqual = require("./assertEqual.js");
 // const takeUntil = require("../takeUntil.js");
 // const without = require("../without.js");
 
-
-
-
-
-// const assertEqual = (actual, expected) => {
-
-//   if (actual === expected) {
-//     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-//   } else {
-//     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-//   }
-
-// };
 
 const tail = (array) => array.slice(1);
 
