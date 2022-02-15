@@ -1,6 +1,5 @@
-
-const tail = require("../tail.js");
 const assert = require('chai').assert;
+const tail = require("../tail.js");
 
 
 describe("#tail", () => {
