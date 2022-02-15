@@ -1,5 +1,5 @@
-const middle = require("../middle.js");
 const assert = require('chai').assert;
+const middle = require("../middle.js");
 
 describe("#middle", () => {
 
