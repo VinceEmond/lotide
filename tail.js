@@ -1,4 +1,9 @@
-const tail = (array) => array.slice(1);
+const tail = (array) => {
+  
+  const tail = [...array];
+  tail.shift();
 
+  return tail;
+};
 
 module.exports = tail;
